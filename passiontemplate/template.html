@@ -45,16 +45,14 @@
     img{
       border: none!important;
     }
+   
   </style>
 
   <!--  Responsive CSS  -->
   <style type="text/css">
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 640px) {
       body[yahoo] .quote_full_width {width:100% !important;}
       body[yahoo] .quote_content_width {width:90% !important;}
-    }
-
-    @media only screen and (max-width: 640px) {
       body[yahoo] .full_width {width:100% !important;}
       body[yahoo] .content_width{width:80% !important;}
       body[yahoo] .center_txt {text-align: center!important;}
@@ -62,6 +60,7 @@
       body[yahoo] .gal_sep {width:100% !important; height:40px !important;}
       body[yahoo] .gal_img {width:100% !important;}
       body[yahoo] .bb_space {height:90px !important;}
+      body[yahoo] .toggle_border {border-right:none; border-bottom: none;}
     
     }  
   </style>
@@ -76,7 +75,16 @@
         <!--  left part  -->
         <table width="50%" border="0" cellpadding="0" cellspacing="0" align="left" class="full_width">
           <tr>
-            <td width="100%" height="450"background="img/joke.jpg" style="background:url('img/catplho.jpg'); background-size: cover; -webkit-background-size: cover; -moz-background-size: cover -o-background-size: cover; background-position:center; background-repeat: no-repeat;"></td>
+            <td width="100%" height="450" background="https://raw.githubusercontent.com/patrickwroach/savethedates/master/passiontemplate/img/catplho.jpg" style="background:url('https://raw.githubusercontent.com/patrickwroach/savethedates/master/passiontemplate/img/catplho.jpg'); background-size: cover; -webkit-background-size: cover; -moz-background-size: cover -o-background-size: cover; background-position:center; background-repeat: no-repeat;">
+              <table width="300" border="0" cellpadding="0" cellspacing="0" align="center" class="content_width">    
+              <tr>
+                  <td width="50%" height="350" align="right" style="border-top: 1px solid white; border-left: 1px solid white">
+                  </td>
+                  </tr>
+               </table>
+            </td>
+            </tr>
+          
           </tr>
         </table>
         <!--  end left part  -->
@@ -93,37 +101,65 @@
         <table border="0" cellpadding="0" cellspacing="0" align="left" class="full_width">
           <tr>
             <td>
-              <table width="300" border="0" cellpadding="0" cellspacing="0" align="center" class="quote_content_width">
+              <table width="300"  height="350" border="0"  cellpadding="0" cellspacing="0" align="center" class="content_width lose_border">
                 <tr>
                   <td width="100%" height="90"></td>
                 </tr>
                 <tr>
-                  <td style="color: #203022; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 50px; font-weight: 600;  line-height:60px; text-transform:uppercase; letter-spacing:1px;">
+                  <td style="color: #203022; text-align:right; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 50px; font-weight: 600;  line-height:60px; text-transform:uppercase; letter-spacing:1px;" >
                     Save the Date</td>
+                    <td style="border-right:1px solid black; ">
+                      <table width="25" style="letter-spacing:1px;" align="right" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>
+                      </table>
+                    </td>
                 </tr>
                 <tr>
-                  <td width="100%" height="24"></td>
-                </tr>
-                <tr>
-                  <td>
-                    <table width="40" height="1" bgcolor="#d3d1d1" align="left" border="0" cellpadding="0" cellspacing="0">
+                  <td width="100%" height="20"></td>
+                  <td height="20" style="border-right:1px solid black;">
+                    <table width="25" style="letter-spacing:1px;" align="right" border="0" cellpadding="0" cellspacing="0">
                       <tr>
-                        <td></td>
+                        <td>&nbsp;</td>
                       </tr>
                     </table>
                   </td>
                 </tr>
                 <tr>
-                  <td width="100%" height="20"></td>
+                  <td>
+                      <table width="60"  align="right" style="border-bottom: 1px solid black;" height="1" align="left" border="0" cellpadding="0" cellspacing="0">
+                          <tr>
+                            <td></td>
+                          </tr>
+                        </table>
+
+                  </td>
+                  <td style="border-right:1px solid black; ">
+                      <table width="25" style="letter-spacing:1px;" align="right" border="0" cellpadding="0" cellspacing="0">
+                      </table>
+                    </td>
+
                 </tr>
                 <tr>
-                  <td width="100%" style="text-align:left; color: #75a07a; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 35px; font-weight: 400;">
+                  <td  width="100%" height="20"></td>
+                  <td  height="20" style="border-right:1px solid black; ">
+                    <table width="25" style="letter-spacing:1px;" align="right" border="0" cellpadding="0" cellspacing="0">
+                    </table></td>
+                </tr>
+                <tr>
+                  <td width="100%" style="text-align:right; color: #75a07a; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 35px; font-weight: 400; letter-spacing:1px; letter-spacing:1px;">
                     <p>9.14.19</p>
                   
                   </td>
+                  <td style="border-right:1px solid black; ">
+                    <table width="25" style="letter-spacing:1px;" align="right" border="0" cellpadding="0" cellspacing="0">
+                    </table>
+                  </td>
+                  
                 </tr>
                 <tr>
-                  <td width="100%" height="60"></td>
+                  <td width="100%" height="60" ></td>
                 </tr>
               </table>
             </td>
@@ -137,39 +173,42 @@
 
 
   <!--  Getting married   -->
-  <table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" bgcolor="white">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" background="https://raw.githubusercontent.com/patrickwroach/savethedates/master/passiontemplate/img/triangles.jpg" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; background:url('https://raw.githubusercontent.com/patrickwroach/savethedates/master/passiontemplate/img/triangles.jpg');" bgcolor="white">
     <tr>
       <td>
-                <!--  left part  -->
+             
                 <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="left" class="full_width">
                     <tr>
                       <td>
-                        <table width="300" border="0" cellpadding="0" cellspacing="0" align="center" class="quote_content_width">
+                        <table width="300" border="0" cellpadding="0" cellspacing="0" align="center" class="content_width">
                           <tr>
-                            <td width="100%" height="70"></td>
+                            <td width="100%" height="40" ></td>
                           </tr>
                           <tr>
-                            <td style="color: black; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 30px; font-weight: 600;  line-height:40px; text-transform:uppercase; letter-spacing:1px;">
+                            <td style="color: black; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600;  line-height:40px; text-transform:uppercase; letter-spacing:1px; ">
                               Sarah & Pat are getting married</td>
+                              <td width="25" style="border-right:1px solid black; "></td>
                           </tr>
                       
                           <tr>
-                            <td width="100%" height="20"></td>
+                            <td width="100%" height="15"></td>
+                            <td width="25" height="15" style="border-right:1px solid black; "></td>
                           </tr>
                           <tr>
-                            <td width="100%" style="text-align:left; color: #75a07a; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 25px; font-weight: 400;">
+                            <td width="100%" style="text-align:left; color: #75a07a; font-family: 'Raleway', Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 400;">
                               <p>Columbus, Ohio</p>
                             
                             </td>
+                            <td width="25" style="border-right:1px solid black; "></td>
                           </tr>
                           <tr>
-                            <td width="100%" height="60"></td>
+                            <td width="100%" height="40"></td>
                           </tr>
                         </table>
                       </td>
                     </tr>
                   </table>
-                  <!--  end left part  -->
+                 
                      <!--  spacing  -->
       
 
@@ -184,7 +223,7 @@
                   <table width="100%"  border="0" cellpadding="0" cellspacing="0" align="left" class="full_width">
                       <tr>
                         <td>
-                          <table width="300" border="0" cellpadding="0" cellspacing="0" align="center" class="quote_content_width">
+                          <table width="300" border="0" cellpadding="0" cellspacing="0" align="center" class="content_width">
                             <tr>
                               <td width="100%" height="50"></td>
                             </tr>
@@ -199,7 +238,7 @@
                             </tr>
                             <tr>
                               <td>
-                                <table width="20" height="1" bgcolor="#d3d1d1" align="left" border="0" cellpadding="0" cellspacing="0">
+                                <table width="60"  style="border-bottom: 1px solid white;" height="1" align="left" border="0" cellpadding="0" cellspacing="0">
                                   <tr>
                                     <td></td>
                                   </tr>
